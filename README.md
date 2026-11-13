@@ -48,14 +48,19 @@ Se desejar clonar e executar este repositório na sua máquina:
     npm start
 
 
----
+## 🙏 Créditos e Referências
 
-## 💡 Créditos & Agradecimentos
-* Projeto desenvolvido como parte dos desafios da Formação React / TypeScript da **Digital Innovation One (DIO)**.
-* Estrutura de base e referências iniciais inspiradas nos projetos de [Nathally Souza](https://github.com/nathyts).
-* Aprimoramentos de rotas, contexto de autenticação e deploy implementados por **Higor de Campos**.
-  
-## Deploy do Projeto
-Acesse a aplicacao rodando no Netlify: https://storied-cat-7fffb5.netlify.app
+* **Instrutora:** [Nathally Souza (@nathsouzadev)](https://github.com/nathsouzadev)
+* **Repositório Base:** [digitalinnovationone/desafio02-ts](https://github.com/digitalinnovationone/desafio02-ts)
+
+
+--- 
+
+## 🤝 Conecte-se Comigo
+
+<p align="center">
+  <img src="https://github.com/HigorCamposGit.png" width="100px" style="border-radius: 50%;" alt="Foto de Higor de Campos" /><br />
+  <b>Projeto atualizado por:</b> <a href="https://github.com/HigorCamposGit">Higor de Campos</a>
+</p>
 
 ---
