@@ -1,16 +1,45 @@
-# Desenvolvendo o Dio Bank
-desenvolvido por [Nathally Souza](https://github.com/nathyts)
+# 💰 Dio Bank - Desafio React Aprimorado
 
-#### Projeto desenvolvido com conceitos básicos de typescript
+> Projeto desenvolvido como parte da formação em React e TypeScript da **Digital Innovation One (DIO)**, aprimorando a interface de login, controle de sessão, rotas protegidas e experiência do usuário.
 
-### Tecnologias
-- Typescript
+---
+## 🚀 Acesse o Projeto Online
+* **Demonstração (Netlify):** [https://storied-cat-7fffb5.netlify.app](https://storied-cat-7fffb5.netlify.app)
 
-### Como rodar o projeto
 
-1 - Clone o repositório
+## 🛠️ Tecnologias Utilizadas
+O projeto foi construído utilizando tecnologias modernas de mercado para front-end:
+* **React** com **TypeScript**
+* **Chakra UI** (para estilização e componentes acessíveis)
+* **React Router DOM** (para gerenciamento de rotas e navegação)
+* **Git & GitHub** (para versionamento de código)
+* **Netlify** (para hospedagem e deploy contínuo)
 
-2 - Instale as dependeências
+---
+
+## 🎯 Funcionalidades Implementadas
+* **Tela de Login Autenticada:** Validação de credenciais de acesso com feedback visual.
+* **Contexto Global (`AppContext`):** Gerenciamento de estado de autenticação (`isLoggedIn`) compartilhado entre os componentes.
+* **Rotas Protegidas:** Bloqueio de acesso à página de extrato/conta caso o usuário não esteja logado.
+* **Página da Conta (`Conta.tsx`):** Exibição dinâmica dos dados do usuário logado (Nome personalizado com saudação correta, data atual em tempo real e saldo da conta).
+* **Layout Responsivo:** Estilização limpa utilizando componentes modulares do Chakra UI.
+
+---
+
+## 🔑 Credenciais de Teste
+Para testar a aplicação diretamente no link de deploy ou rodando localmente, utilize as credenciais abaixo:
+* **E-mail:** `higor@dio.bank`
+* **Senha:** `123456`
+
+---
+
+## 💻 Como Rodar o Projeto Localmente
+
+Se desejar clonar e executar este repositório na sua máquina:
+
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/HigorCamposGit/Desafio-2-Aprimorando-Home-page-com-React.git](https://github.com/HigorCamposGit/Desafio-2-Aprimorando-Home-page-com-React.git)
     
     npm install
 
@@ -18,24 +47,15 @@ desenvolvido por [Nathally Souza](https://github.com/nathyts)
 
     npm start
 
-#### Desafios
-[ ] Incluir validação da senha no campo de login
-  - Para logar, além do email faça a validação com a senha informada pelo usuário.
-  - Durante a implementação, aplique o TDD e escreva os testes unitários para a nova validação
 
-[ ] Implemente um sistema de login com a Context API
-  - Seguindo os exemplos demonstrados ao longo do curso, crie um estado global para realizar o login
-  - Utilize o localStorage para armazenar os dados do usuário ao logar
-  - Caso os dados do usuário existam no localStorage, a tela de login não deve ser exibida
+---
 
-[ ] Crie uma página para exibir as informações do usuário
-  - Crie uma página onde será exibido o nome, email
-  - Esta página só poderá ser acessada caso a usuária esteja logada
-  - Caso a usuária não esteja logada, deve ser mantida na página com a tela de login
-  - Escreva os testes unitários para as funções criadas ou refatoradas.
-
-[ ] Fazer o deploy no Netlify e compartilhar o link da página
-
-
+## 💡 Créditos & Agradecimentos
+* Projeto desenvolvido como parte dos desafios da Formação React / TypeScript da **Digital Innovation One (DIO)**.
+* Estrutura de base e referências iniciais inspiradas nos projetos de [Nathally Souza](https://github.com/nathyts).
+* Aprimoramentos de rotas, contexto de autenticação e deploy implementados por **Higor de Campos**.
+  
 ## Deploy do Projeto
 Acesse a aplicacao rodando no Netlify: https://storied-cat-7fffb5.netlify.app
+
+---
