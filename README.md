@@ -1,6 +1,6 @@
 # 💰 Dio Bank - Desafio React Aprimorado
 
-> Projeto desenvolvido como parte da formação em React e TypeScript da **Digital Innovation One (DIO)**, aprimorando a interface de login, controle de sessão, rotas protegidas e experiência do usuário.
+> Projeto desenvolvido como parte da **Formação TypeScript Fullstack Developer** da **Digital Innovation One (DIO)**, aprimorando a interface de login, controle de sessão, rotas protegidas e experiência do usuário.
 
 ---
 ## 🚀 Acesse o Projeto Online
